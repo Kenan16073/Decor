@@ -1,0 +1,155 @@
+@media (max-width: 1200px){
+    .products .tabcontent .product-style {
+       grid-template-columns: repeat(3, 1fr);
+       margin-left: 60px;
+    }
+    .product-gallery .product-buy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 1000px){
+    .title-section .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-section .title h1{
+        text-align: center;
+    }
+    .blog-card .blog-title{
+       grid-template-columns: repeat(2, 1fr) !important;
+       margin-left: 30px;
+    }
+    .products .tabcontent .product-style {
+       grid-template-columns: repeat(2, 1fr);
+       margin-left: 60px;
+    }
+    .related-blog .card-style{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 650px){
+    .products .tab img{
+        display: none;
+    }
+    .products .tabcontent .product-style {
+       display: flex;
+       flex-direction: column;
+       justify-items: center;
+       align-items: center;
+       margin-left: 0;
+    }
+    .products .tabcontent .product-style .product{
+        width: 100%;
+    }
+}
+@media (max-width: 700px){
+    .contact-section .contact-width{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .blog-card .blog-title{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .brands .title img{
+        display: none;
+    }
+    .brands .image{
+        display: flex;
+        flex-direction: column;
+    }
+    .clients .title img{
+        display: none;
+    }
+    .clients .title{
+        margin-top: 70px;
+    }
+    .marka .title h1{
+        font-size: 30px !important;
+    }
+    
+     .section-padding .image-decor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-padding .image-decor div,img{
+        width: 100% !important;
+    }
+    .marka .marka-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .marka .marka-flex img{
+        opacity: 1;
+        margin-top: 90px;
+        width: 80px;
+        height: 100px;
+    }
+}
+@media (max-width: 500px){
+    .blog-detail-footer .share{
+        flex-direction: column;
+    }
+    .blog-detail-footer .share .post-share{
+        margin-top: 10px;
+    }
+    .single-blog .detail .blog-card .meta{
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+    .single-blog .detail .desc p{
+        text-align: center;
+    }
+    .single-blog .start-title h2{
+        font-size: 25px !important;
+        text-align: center;
+    }
+    .title-section .text-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .message .subscribe{
+    margin: 0px 50px 0px 50px;
+    }
+    .message .subscribe-email{
+        display: flex;
+        flex-direction: column;
+    }
+    .marka .title img{
+        display: none;
+    }
+    .marka .title button{
+        font-size: 13px;
+        padding: 10px 30px !important;
+    }
+    .home-banner .fade h3{
+        font-size: 15px;
+    }
+    .home-banner .fade h1{
+        font-size: 30px !important; 
+    }
+    .section-padding .inner h1{
+        font-size: 25px !important;
+    }
+    .section-padding .inner h3{
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 350px){
+    .section-padding .inner h1{
+        font-size: 18px !important;
+    }
+    .section-padding .inner h3{
+        font-size: 13px !important;
+    }
+}
